@@ -1,4 +1,5 @@
-```markdown
+
+
 <div align="center">
 
 # Hi, I'm **Yash Bhadoriya** 👋
@@ -115,8 +116,6 @@ Madhya Pradesh, India 🇮🇳
 
 ---
 
-```
-```markdown
 <!-- ========================================================== -->
 <!--                     TECH STACK RIBBON                       -->
 <!-- ========================================================== -->
@@ -247,9 +246,148 @@ width="100%"/>
 </table>
 
 ---
-```
 
+<!-- ========================================================== -->
+<!--                  FEATURED PROJECTS                         -->
+<!-- ========================================================== -->
 
+<div align="center">
+
+# ⭐ Featured Projects
+
+*Applications engineered with modern Android technologies, scalable architecture, and a strong focus on user experience.*
+
+</div>
+
+<br>
+
+<table>
+
+<tr>
+
+<td width="33%" valign="top">
+
+<img src="assets/covers/sonexa-cover.png" width="100%">
+
+<br>
+
+## 🎵 Sonexa
+
+Modern Android music streaming experience built using **Jetpack Compose**, **Media3 ExoPlayer**, and **MVVM Clean Architecture**.
+
+### Tech
+
+`Kotlin` `Compose` `Media3`
+
+`Retrofit` `Room` `AudioFX`
+
+<br>
+
+<a href="./docs/sonexa.md">
+
+<img src="https://img.shields.io/badge/📖_Documentation-6C63FF?style=for-the-badge"/>
+
+</a>
+
+<br>
+
+<a href="https://github.com/devilyash10/Sonexa_music_app">
+
+<img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+</td>
+
+<td width="33%" valign="top">
+
+<img src="assets/covers/weather-cover.png" width="100%">
+
+<br>
+
+## 🌦 AtmosLive
+
+Offline-first weather platform featuring local caching, widgets, background updates, and modern Material 3 design.
+
+### Tech
+
+`Kotlin`
+
+`Compose`
+
+`Room`
+
+`Retrofit`
+
+`WorkManager`
+
+`Hilt`
+
+<br>
+
+<a href="./docs/atmoslive.md">
+
+<img src="https://img.shields.io/badge/📖_Documentation-2196F3?style=for-the-badge"/>
+
+</a>
+
+<br>
+
+<a href="https://github.com/devilyash10/dynamic_weather_app">
+
+<img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+</td>
+
+<td width="33%" valign="top">
+
+<img src="assets/covers/warranty-cover.png" width="100%">
+
+<br>
+
+## 📦 WarrantyWise
+
+Smart warranty management platform for securely organizing warranties, invoices, and service history.
+
+### Tech
+
+`Kotlin`
+
+`Compose`
+
+`Firebase`
+
+`MVVM`
+
+`Material 3`
+
+`Hilt`
+
+<br>
+
+<a href="./docs/warrantywise.md">
+
+<img src="https://img.shields.io/badge/📖_Documentation-43A047?style=for-the-badge"/>
+
+</a>
+
+<br>
+
+<a href="https://github.com/devilyash10">
+
+<img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+---
 
 
 
