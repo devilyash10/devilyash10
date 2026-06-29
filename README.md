@@ -388,6 +388,121 @@ Smart warranty management platform for securely organizing warranties, invoices,
 </table>
 
 ---
+<!-- ========================================================== -->
+<!--                     OTHER PROJECTS                         -->
+<!-- ========================================================== -->
+
+<div align="center">
+
+# 📂 Other Projects
+
+*A collection of applications built while exploring Android development, desktop software, cloud integration, and problem solving.*
+
+</div>
+
+<br>
+
+<table>
+
+<tr>
+
+<td width="50%" valign="top">
+
+## 🌱 Carbon Tracker
+
+**Smart India Hackathon 2024 Project**
+
+A sustainability-focused platform designed to encourage users to monitor and reduce their carbon footprint through data-driven insights.
+
+**Highlights**
+
+- 🌍 Environmental Impact Tracking
+- 📊 Analytics Dashboard
+- 📈 Carbon Usage Monitoring
+
+**Tech**
+
+`Android` `Firebase` `Java`
+
+---
+
+## 🖥 Quiz Desktop Application
+
+Desktop-based quiz management software developed using Python.
+
+**Highlights**
+
+- Student & Admin Modes
+- Dynamic Question Management
+- MySQL Integration
+- Performance Tracking
+
+**Tech**
+
+`Python`
+
+`Tkinter`
+
+`MySQL`
+
+</td>
+
+<td width="50%" valign="top">
+
+## 📝 Notes Application
+
+Cloud-enabled Android notes application focused on secure note management and synchronization.
+
+**Highlights**
+
+- Cloud Synchronization
+- Local Storage
+- Modern UI
+- Material Design
+
+**Tech**
+
+`Kotlin`
+
+`Firebase`
+
+`Room`
+
+---
+
+## 🔬 Experimental Projects
+
+A collection of smaller applications and engineering experiments used to explore Android APIs and modern development practices.
+
+Examples include
+
+- Firebase Authentication
+- REST API Integration
+- Jetpack Compose Components
+- Material Design UI Experiments
+- State Management Samples
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+<div align="center">
+
+### 📚 More projects are available in my repositories.
+
+<a href="https://github.com/devilyash10?tab=repositories">
+
+<img src="https://img.shields.io/badge/View_All_Repositories-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+</div>
+
+---
 
 
 
