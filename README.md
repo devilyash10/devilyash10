@@ -585,9 +585,150 @@ I enjoy building applications that solve practical problems while following mode
 
 ---
 
+<!-- ========================================================== -->
+<!--                   GITHUB ANALYTICS                         -->
+<!-- ========================================================== -->
+
+<div align="center">
+
+# 📊 GitHub Analytics
+
+*Open source contributions, development activity, and coding journey.*
+
+<br>
+
+<img height="170em"
+src="https://github-readme-stats.vercel.app/api?username=devilyash10&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true"/>
+
+<img height="170em"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=devilyash10&layout=compact&theme=github_dark&hide_border=true"/>
+
+<br><br>
+
+<img width="95%"
+src="https://github-readme-activity-graph.vercel.app/graph?username=devilyash10&theme=github-dark&hide_border=true"/>
+
+<br><br>
+
+<img
+src="https://streak-stats.demolab.com?user=devilyash10&theme=github-dark&hide_border=true"/>
+
+</div>
+
+---
 
 
+<!-- ========================================================== -->
+<!--                  CODING PROFILES                           -->
+<!-- ========================================================== -->
 
+<div align="center">
+
+# 💻 Coding Profiles
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=leetcode" width="55"/>
+
+### LeetCode
+
+Strengthening problem-solving skills through Data Structures & Algorithms.
+
+<a href="https://leetcode.com/u/Q6JUAU59w3/)">
+
+<img src="https://img.shields.io/badge/View_Profile-orange?style=for-the-badge"/>
+
+</a>
+
+</td>
+
+<td align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55"/>
+
+### GitHub
+
+Explore my Android projects, documentation, and open-source work.
+
+<a href="https://github.com/devilyash10">
+
+<img src="https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+</td>
+
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=linkedin" width="55"/>
+
+### LinkedIn
+
+Let's connect and grow together professionally.
+
+<a href="https://www.linkedin.com/in/yashbhadoriya881">
+
+<img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+---
+
+<!-- ========================================================== -->
+<!--                     LET'S CONNECT                          -->
+<!-- ========================================================== -->
+
+<div align="center">
+
+# 🤝 Let's Connect
+
+I'm always interested in discussing Android development, open-source collaboration, innovative ideas, or exciting internship and full-time opportunities.
+
+If you'd like to collaborate or simply have a conversation about technology, feel free to reach out.
+
+<br>
+
+<a href="mailto:yashbhadoriya2425@gmail.com">
+
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+
+</a>
+
+<a href="https://www.linkedin.com/in/yashbhadoriya881">
+
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+
+</a>
+
+<a href="https://github.com/devilyash10">
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=devilyash10&style=for-the-badge&color=blue"/>
+
+<br><br>
+
+### Thanks for visiting my profile! ⭐
+
+*If you enjoyed exploring my work, consider starring a repository or connecting with me.*
+
+</div>
 
 
 
