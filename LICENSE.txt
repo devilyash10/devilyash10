@@ -1,0 +1,21 @@
+Copyright © 2026 Yash Bhadoriya
+
+All Rights Reserved.
+
+This repository, including but not limited to its source code, documentation,
+README content, graphics, project structure, screenshots, designs, icons,
+logos, and other original materials, is the intellectual property of
+Yash Bhadoriya.
+
+No part of this repository may be copied, reproduced, modified,
+redistributed, republished, mirrored, or used in whole or in part,
+for personal, educational, commercial, or non-commercial purposes
+without prior written permission from the copyright holder.
+
+Viewing this repository for educational purposes is permitted.
+However, cloning, republishing, or presenting this work as your own
+is strictly prohibited.
+
+Unauthorized use may constitute copyright infringement.
+
+For licensing inquiries, contact Yash Bhadoriya

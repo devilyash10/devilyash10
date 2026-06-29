@@ -61,3 +61,118 @@ Projects emphasizing Clean Architecture, modular code, maintainability, and perf
 Experiments, learning projects, open-source contributions, and explorations into new technologies.
 
 ---
+
+<!-- ========================== TECH STACK ========================== -->
+
+# 🛠 Tech Stack
+
+### 👨‍💻 Languages
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=kotlin,java,python,c,cpp,mysql" />
+</p>
+
+---
+
+### 📱 Android Development
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=androidstudio,firebase" />
+</p>
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Navigation Component
+- MVVM Architecture
+- Clean Architecture
+- ViewModel
+- LiveData
+- StateFlow
+- Coroutines
+- Room Database
+- Hilt (Dependency Injection)
+- Retrofit
+- ExoPlayer
+- WorkManager
+- Jetpack Glance Widgets
+
+---
+
+### ☁ Backend & Cloud
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=firebase" />
+</p>
+
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+- REST APIs
+- JSON Parsing
+- Offline Data Synchronization
+
+---
+
+### 💻 Development Tools
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,pycharm,linux" />
+</p>
+
+- Android Studio
+- IntelliJ IDEA Ultimate
+- VS Code
+- PyCharm
+- Git
+- GitHub
+- Linux
+- Firebase Studio
+
+---
+
+### 🏗 Software Engineering
+
+- Object-Oriented Programming (OOP)
+- Data Structures & Algorithms
+- Database Management Systems (DBMS)
+- Design Patterns
+- Dependency Injection
+- Reactive Programming
+- Repository Pattern
+- SOLID Principles
+- Version Control
+
+---
+
+### 🎨 UI / UX
+
+- Material Design 3
+- Responsive Layouts
+- Dark Mode
+- Adaptive UI
+- Animation
+- Accessibility
+- User-Centered Design
+
+---
+
+# 🌱 Currently Exploring
+
+- ⚙ Backend Development with Python & FastAPI
+- ☁ Scalable Backend Architecture
+- 🏛 System Design
+- 🤖 Generative AI
+- 📦 Modular Android Applications
+- 🚀 CI/CD for Android
+  
+---
+# 💡 Development Philosophy
+
+I believe great software is more than just working code.
+
+I enjoy designing applications that are scalable, maintainable, and user-friendly by following modern engineering practices such as Clean Architecture, MVVM, dependency injection, and modular design.
+
+Every project I build is an opportunity to improve performance, enhance user experience, and solve real-world problems through thoughtful engineering.
+
+---
