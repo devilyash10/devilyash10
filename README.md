@@ -422,7 +422,7 @@ A sustainability-focused platform designed to encourage users to monitor and red
 
 **Tech**
 
-`Android` `Firebase` `Java`
+`Java Script` `Firebase` `Java` `React`
 
 ---
 
@@ -439,11 +439,7 @@ Desktop-based quiz management software developed using Python.
 
 **Tech**
 
-`Python`
-
-`Tkinter`
-
-`MySQL`
+`Python` `Tkinter` `MySQL`
 
 </td>
 
@@ -451,7 +447,7 @@ Desktop-based quiz management software developed using Python.
 
 ## 📝 Notes Application
 
-Cloud-enabled Android notes application focused on secure note management and synchronization.
+Cloud-enabled Android notes application focused on secure note management and synchronization also supports Modern Material3 UI design dark mode.
 
 **Highlights**
 
@@ -462,11 +458,7 @@ Cloud-enabled Android notes application focused on secure note management and sy
 
 **Tech**
 
-`Kotlin`
-
-`Firebase`
-
-`Room`
+`Kotlin` `Firebase` `Room` `Jetpack Compose`
 
 ---
 
@@ -504,7 +496,94 @@ Examples include
 
 ---
 
+<!-- ========================================================== -->
+<!--                PROFESSIONAL HIGHLIGHTS                     -->
+<!-- ========================================================== -->
 
+<div align="center">
+
+# 🏆 Professional Highlights
+
+*Building scalable Android applications with a focus on clean architecture, modern UI, and real-world problem solving.*
+
+</div>
+
+<br>
+
+<table>
+
+<tr>
+
+<td width="50%" valign="top">
+
+## 👨‍🎓 Education
+
+**Bachelor of Technology (B.Tech)**
+
+Information Technology
+
+📍 Jabalpur Engineering College (JEC)
+
+Expected Graduation: **2027**
+
+---
+
+## 📱 Primary Focus
+
+- Native Android Development
+- Kotlin & Jetpack Compose
+- MVVM + Clean Architecture
+- Firebase Cloud Platform
+- REST APIs & Networking
+- Material Design 3
+
+---
+
+## 🚀 Currently Exploring
+
+- FastAPI & Backend Development
+- System Design
+- Cloud Architecture
+- Generative AI
+- Scalable Mobile Applications
+
+</td>
+
+<td width="50%" valign="top">
+
+## 📊 Quick Snapshot
+
+📱 **20+** Software Projects
+
+💻 **500+** DSA Problems Solved
+
+☁ Firebase & Cloud Integration
+
+🏗 Production-Oriented Android Apps
+
+🎨 Modern Material 3 UI Design
+
+⚡ Offline-First Mobile Applications
+
+🧩 MVVM & Clean Architecture
+
+🌍 Real-World Problem Solving
+
+---
+
+## 💡 Development Philosophy
+
+> *"Good software isn't just feature-rich — it's maintainable, scalable, and enjoyable to use."*
+
+I enjoy building applications that solve practical problems while following modern engineering practices, emphasizing code quality, user experience, and long-term maintainability.
+
+</td>
+
+</tr>
+
+</table>
+
+---
 
 
 
