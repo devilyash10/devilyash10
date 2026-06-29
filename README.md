@@ -1,181 +1,160 @@
-<!-- ========================== HERO SECTION ========================== -->
+```markdown
+<div align="center">
 
-<h1 align="center">Hi 👋, I'm Yash Bhadoriya</h1>
+# Hi, I'm **Yash Bhadoriya** 👋
 
-<h3 align="center">
-Android Developer • Software Engineer • Problem Solver
-</h3>
+### Android Developer • Kotlin Enthusiast • Problem Solver • Software Engineer
 
-<p align="center">
-Building production-ready Android applications with modern architecture, scalable solutions, and intuitive user experiences.
-</p>
+Building scalable Android applications with modern architecture, clean code principles, and exceptional user experiences.
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1200&color=3B82F6&center=true&vCenter=true&width=850&lines=Android+Developer+using+Kotlin+%26+Jetpack+Compose;Building+Production-Ready+Mobile+Applications;Clean+Architecture+%7C+MVVM+%7C+Material+3;Always+Learning.+Always+Building." alt="Typing SVG" />
-</p>
+</div>
 
 ---
 
-# 👨‍💻 About Me
+<table>
 
-I'm an **Information Technology undergraduate** at **Jabalpur Engineering College (JEC)** with a strong passion for Android application development and software engineering.
+<tr>
 
-I enjoy transforming real-world problems into scalable mobile applications by following modern Android development practices, writing clean and maintainable code, and designing intuitive user experiences.
+<td width="18%" align="center">
 
-My primary expertise lies in building Android applications using **Kotlin**, **Jetpack Compose**, **MVVM Clean Architecture**, and **Firebase**, while continuously exploring backend development, system design, and emerging technologies.
+<img src="assets/profile/profile.png" width="170px" style="border-radius:50%;">
 
-Outside development, I actively participate in technical events, hackathons, community initiatives, and continuously challenge myself to learn new technologies that improve both my engineering mindset and problem-solving abilities.
+</td>
 
----
+<td width="47%">
 
-# 💼 Professional Summary
+## 👨‍💻 About Me
 
-- 📱 Android Developer specializing in **Kotlin** and **Jetpack Compose**
-- 🏗️ Experienced in **MVVM**, **Clean Architecture**, and scalable application design
-- ⚡ Passionate about building high-performance, production-ready Android applications
-- 🔥 Hands-on experience with **Firebase**, **Room**, **Retrofit**, **Hilt**, **Coroutines**, and **Material 3**
-- 💻 Strong foundation in **Java**, **Data Structures & Algorithms**, **Object-Oriented Programming**, and **DBMS**
-- 🌱 Currently expanding my expertise in **Backend Development**, **System Design**, and **Generative AI**
-- 🚀 Always focused on writing clean, maintainable, and user-centric software
+I'm an Information Technology undergraduate at **Jabalpur Engineering College (JEC)** with a strong passion for Android application development.
 
----
+I enjoy transforming real-world problems into intuitive mobile experiences using **Kotlin**, **Jetpack Compose**, **MVVM**, and modern Android development practices.
 
-# 🎯 What You'll Find Here
+Currently focused on building scalable applications with clean architecture, cloud integration, and thoughtful user experiences while continuously improving my knowledge of backend development and system design.
 
-This GitHub profile showcases projects focused on solving practical problems through modern software engineering.
+<br>
 
-### 📱 Android Development
+**Currently Exploring**
 
-Production-ready Android applications built using modern Android architecture.
-
-### ☁ Backend Integration
-
-REST APIs, Firebase services, cloud synchronization, and scalable data management.
-
-### 🏗 Software Engineering
-
-Projects emphasizing Clean Architecture, modular code, maintainability, and performance optimization.
-
-### 🚀 Continuous Learning
-
-Experiments, learning projects, open-source contributions, and explorations into new technologies.
-
----
-
-<!-- ========================== TECH STACK ========================== -->
-
-# 🛠 Tech Stack
-
-### 👨‍💻 Languages
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=kotlin,java,python,c,cpp,mysql" />
-</p>
-
----
-
-### 📱 Android Development
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=androidstudio,firebase" />
-</p>
-
-- Kotlin
-- Jetpack Compose
-- Material 3
-- Navigation Component
-- MVVM Architecture
-- Clean Architecture
-- ViewModel
-- LiveData
-- StateFlow
-- Coroutines
-- Room Database
-- Hilt (Dependency Injection)
-- Retrofit
-- ExoPlayer
-- WorkManager
-- Jetpack Glance Widgets
-
----
-
-### ☁ Backend & Cloud
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=firebase" />
-</p>
-
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
-- REST APIs
-- JSON Parsing
-- Offline Data Synchronization
-
----
-
-### 💻 Development Tools
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,pycharm,linux" />
-</p>
-
-- Android Studio
-- IntelliJ IDEA Ultimate
-- VS Code
-- PyCharm
-- Git
-- GitHub
-- Linux
-- Firebase Studio
-
----
-
-### 🏗 Software Engineering
-
-- Object-Oriented Programming (OOP)
-- Data Structures & Algorithms
-- Database Management Systems (DBMS)
-- Design Patterns
-- Dependency Injection
-- Reactive Programming
-- Repository Pattern
-- SOLID Principles
-- Version Control
-
----
-
-### 🎨 UI / UX
-
-- Material Design 3
-- Responsive Layouts
-- Dark Mode
-- Adaptive UI
-- Animation
-- Accessibility
-- User-Centered Design
-
----
-
-# 🌱 Currently Exploring
-
-- ⚙ Backend Development with Python & FastAPI
-- ☁ Scalable Backend Architecture
-- 🏛 System Design
+- ⚡ Backend Development with Python & FastAPI
+- 🏗 System Design
+- ☁ Cloud Architecture
 - 🤖 Generative AI
-- 📦 Modular Android Applications
-- 🚀 CI/CD for Android
-  
+- 📱 Advanced Android Engineering
+
+</td>
+
+<td width="15%" align="center">
+
+## 📊 Stats
+
+**20+**
+
+Projects
+
+<br>
+
+**500+**
+
+DSA Problems
+
+<br>
+
+**3+**
+
+Years Coding
+
+<br>
+
+**10+**
+
+Technologies
+
+</td>
+
+<td width="20%">
+
+## 🤝 Connect
+
+📧 **Email**
+
+your-email@example.com
+
+<br>
+
+💼 **LinkedIn**
+
+linkedin.com/in/yourprofile
+
+<br>
+
+💻 **GitHub**
+
+github.com/devilyash10
+
+<br>
+
+📍 **Location**
+
+Madhya Pradesh, India 🇮🇳
+
+</td>
+
+</tr>
+
+</table>
+
 ---
-# 💡 Development Philosophy
 
-I believe great software is more than just working code.
+<div align="center">
 
-I enjoy designing applications that are scalable, maintainable, and user-friendly by following modern engineering practices such as Clean Architecture, MVVM, dependency injection, and modular design.
+### ⚡ Core Technologies
 
-Every project I build is an opportunity to improve performance, enhance user experience, and solve real-world problems through thoughtful engineering.
+<img src="https://skillicons.dev/icons?i=kotlin,java,python,firebase,git,github,linux,androidstudio,vscode,idea" />
+
+</div>
 
 ---
+
+```
+```markdown
+<!-- ========================================================== -->
+<!--                     TECH STACK RIBBON                       -->
+<!-- ========================================================== -->
+
+<div align="center">
+
+## <img src="https://img.icons8.com/fluency/24/source-code.png" width="22"/> Tech Stack
+
+<br>
+
+<p>
+
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Room-1976D2?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Retrofit-009688?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Hilt-1E88E5?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Coroutines-7E57C2?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/StateFlow-3949AB?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Material_3-5E35B1?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+</p>
+
+</div>
+
+---
+
 <!-- ========================================================== -->
 <!--                  CURRENTLY BUILDING                        -->
 <!-- ========================================================== -->
@@ -183,88 +162,103 @@ Every project I build is an opportunity to improve performance, enhance user exp
 # 🚧 Currently Building
 
 <table>
+
 <tr>
 
-<td width="65%">
+<td width="18%" align="center">
+
+<br>
+
+# ❤️
+
+### BloodLink
+
+**Healthcare Platform**
+
+<br>
+
+🚀 **MVP Development**
+
+</td>
+
+<td width="42%">
 
 ## 🩸 BloodLink
 
-**A Digital Healthcare Platform**
+### Digital Healthcare Platform
 
-BloodLink is my most ambitious Android project, designed to modernize communication between blood donors, hospitals, and blood banks through a single mobile ecosystem.
+Connecting **Blood Donors**, **Hospitals**, and **Blood Banks**
+through a unified Android ecosystem.
 
-The platform follows a multi-role architecture with dedicated workflows, cloud synchronization using Firebase, and a scalable MVVM-based Android architecture.
+BloodLink is my flagship Android project focused on improving
+blood donation management through role-based workflows,
+Firebase cloud integration, and modern Android architecture.
 
-Currently under active MVP development.
+Current implementation includes:
 
-<br>
+- Multi-role Authentication
+- Blood Request Management
+- Hospital Dashboard
+- Blood Bank Inventory
+- Firebase Cloud Backend
+- Google Authentication
+- MVVM + Clean Architecture
 
-**Current Progress**
+</td>
 
-🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜
+<td width="15%" align="center">
 
-**≈ 70% Complete**
+## 📈 Progress
 
-<br>
+### 70%
+
+███████░░░
+
+**MVP Development**
+
+</td>
+
+<td width="25%" align="center">
+
+<img
+src="assets/covers/bloodlink-cover.png"
+width="100%"/>
+
+<br><br>
 
 <a href="./docs/bloodlink.md">
-<img src="https://img.shields.io/badge/Read_Full_Documentation-D32F2F?style=for-the-badge&logo=readthedocs&logoColor=white">
+
+<img src="https://img.shields.io/badge/📖_Documentation-E53935?style=for-the-badge"/>
+
+</a>
+
+<br>
+
+<a href="https://github.com/devilyash10/BloodLink">
+
+<img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
 </a>
 
 </td>
 
-<td width="35%">
-
-<img src="assets/screenshots/bloodlink/hero.png"/>
-
-</td>
-
 </tr>
+
 </table>
 
 ---
+```
 
-# ⭐ Featured Projects
 
-<table>
 
-<tr>
 
-<td width="50%">
 
-<img src="assets/screenshots/sonexa/cover.png"/>
 
-### 🎵 Sonexa
 
-Modern music streaming experience built using Kotlin and Jetpack Compose.
 
-- MVVM
-- Media3
-- Retrofit
-- Room
-- AudioFX
 
-<a href="./docs/sonexa.md">
-<img src="https://img.shields.io/badge/Documentation-181717?style=for-the-badge&logo=github">
-</a>
 
-</td>
 
-<td width="50%">
 
-<img src="assets/screenshots/weather/cover.png"/>
 
-### 🌦 AtmosLive
 
-Offline-first weather forecasting platform with Room caching and background widgets.
-
-- Kotlin
-- Hilt
-- Retrofit
-- WorkManager
-
-</td>
-
-</tr>
-
-</table>
