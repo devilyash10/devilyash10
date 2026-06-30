@@ -16,13 +16,13 @@ Building scalable Android applications with modern architecture, clean code prin
 
 <tr>
 
-<td width="20%" align="center">
+<td width="25%" align="center">
 
 <img src="assets/profile/profile.png" width="170px" style="border-radius:50%;">
 
 </td>
 
-<td width="70%">
+<td width="50%">
 
 ## 👨‍💻 About Me
 
@@ -44,7 +44,7 @@ Currently focused on building scalable applications with clean architecture, clo
 
 </td>
 
-<td width="15%" align="center">
+<td width="20%" align="center">
 
 ## 📊 Stats
 
@@ -153,7 +153,7 @@ Technologies
 
 </td>
 
-<td width="42%">
+<td width="38%">
 
 ## 🩸 BloodLink
 
@@ -190,7 +190,7 @@ Current implementation includes:
 
 </td>
 
-<td width="25%" align="center">
+<td width="30%" align="center">
 
 <img
 src="assets/covers/bloodlink-cover.png"
@@ -213,6 +213,7 @@ width="100%"/>
 </a>
 
 </td>
+
 
 </tr>
 
