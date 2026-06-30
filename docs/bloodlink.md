@@ -1,20 +1,18 @@
---
-
 <!-- ========================================================== -->
-<!--                     FEATURED PROJECT                        -->
+<!--                        BLOODLINK                           -->
 <!-- ========================================================== -->
 
 <div align="center">
 
 # 🩸 BloodLink
 
-### *A Digital Healthcare Platform for Smarter Blood Donation & Emergency Response*
+### *A Modern Healthcare Coordination Platform*
 
-*Connecting blood donors, hospitals, and blood banks through a unified Android ecosystem.*
+**Connecting blood donors, hospitals, and blood banks through a unified Android ecosystem powered by modern cloud technologies.**
 
 <br>
 
-<img src="assets/bloodlink/banner.png" width="100%" alt="BloodLink Banner"/>
+<img src="../assets/covers/bloodlink-cover.png" width="100%" alt="BloodLink Cover"/>
 
 <br><br>
 
@@ -22,22 +20,95 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Cloud_Platform-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![MVVM](https://img.shields.io/badge/MVVM-Clean_Architecture-success?style=for-the-badge)
 ![Material 3](https://img.shields.io/badge/Material_3-6750A4?style=for-the-badge)
+![MVVM](https://img.shields.io/badge/MVVM-Clean_Architecture-success?style=for-the-badge)
 
 </div>
 
 ---
 
+<p align="center">
+
+<a href="#-project-highlights">
+<img src="https://img.shields.io/badge/✨-Highlights-7F52FF?style=flat-square">
+</a>
+
+<a href="#-platform-overview">
+<img src="https://img.shields.io/badge/🏥-Platform-0F9D58?style=flat-square">
+</a>
+
+<a href="#-system-architecture">
+<img src="https://img.shields.io/badge/🏗-Architecture-4285F4?style=flat-square">
+</a>
+
+<a href="#-project-gallery">
+<img src="https://img.shields.io/badge/📱-Gallery-F57C00?style=flat-square">
+</a>
+
+<a href="#-explore-technical-documentation">
+<img src="https://img.shields.io/badge/📚-Docs-D32F2F?style=flat-square">
+</a>
+
+</p>
+
+---
+
+# 📖 Executive Summary
+
+BloodLink is a healthcare-focused Android application designed to simplify emergency blood donation by connecting donors, hospitals, and blood banks through a single digital platform.
+
+Built using **Jetpack Compose**, **Firebase**, **MVVM**, **Hilt**, **StateFlow**, and **Material Design 3**, the application enables secure authentication, real-time request management, cloud synchronization, and role-based workflows tailored to different healthcare participants.
+
+Rather than functioning as a simple blood donor directory, BloodLink demonstrates how modern Android architecture can support scalable healthcare coordination through responsive interfaces, cloud-native services, and production-oriented engineering practices.
+
+
+
 # ❤️ Why BloodLink?
 
-Blood donation remains one of the most critical yet fragmented areas of healthcare. During emergencies, hospitals, blood banks, and donors often rely on disconnected communication channels, manual coordination, and delayed information sharing. These inefficiencies can slow response times when every minute matters.
+Emergency blood donation often depends on fragmented communication, manual coordination, and delayed information sharing between donors, hospitals, and blood banks.
 
-BloodLink was created to explore how modern Android technology can simplify this process by bringing every participant into a single digital ecosystem.
+BloodLink was created to explore how modern Android technologies can improve this process by bringing every stakeholder into a unified digital ecosystem.
 
-Rather than functioning as a simple donor directory, the platform is designed around the interactions between **three independent stakeholders**—individual donors, hospitals, and blood banks—allowing each to access dedicated tools while securely sharing data through a centralized cloud infrastructure.
+The platform focuses on reducing coordination delays, improving accessibility, and establishing a scalable foundation for real-time healthcare collaboration.
 
-The long-term objective is to build a reliable, scalable, and user-focused healthcare platform capable of improving communication, transparency, and accessibility throughout the blood donation process.
+---
+
+# ✨ Project Highlights
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+### 🩸 Multi-Role Platform
+
+- Blood Donor Portal
+- Hospital Portal
+- Blood Bank Portal
+- Role-Based Navigation
+- Secure Authentication
+- Cloud Synchronization
+
+</td>
+
+<td width="50%">
+
+### ⚙ Engineering
+
+- Jetpack Compose
+- MVVM Architecture
+- Hilt DI
+- Firebase Services
+- StateFlow
+- Repository Pattern
+
+</td>
+
+</tr>
+
+</table>
+
 
 ---
 
@@ -50,31 +121,96 @@ BloodLink is being developed with one fundamental goal:
 Every design decision—from authentication and user roles to cloud synchronization and inventory management—is driven by that objective.
 
 ---
-
 # 🏥 Platform Overview
 
-Unlike traditional blood donation applications that focus only on donors, BloodLink follows a multi-role platform architecture where every participant receives tools designed specifically for their responsibilities.
+Unlike conventional blood donation applications that primarily connect donors with recipients, BloodLink is designed as a **multi-role healthcare platform** where every stakeholder operates through a dedicated workspace while sharing the same secure cloud infrastructure.
 
+Each role has its own responsibilities, workflows, and interface, ensuring users interact only with the tools relevant to them while collaborating through a unified ecosystem.
+
+<div align="center">
+
+```text
+                    🩸 BloodLink Platform
+
+                      ☁ Firebase Cloud
+
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        │                     │                     │
+        ▼                     ▼                     ▼
+
+   🩸 Blood Donor        🏥 Hospital          🏦 Blood Bank
+
+ • Donate Blood       • Create Requests    • Manage Inventory
+ • Browse Requests    • Track Requests     • Update Stock
+ • Donation History   • Monitor Patients   • Respond to Requests
+ • Nearby Hospitals   • Coordinate Donors  • Availability Status
+ • Profile            • Dashboard          • Institution Profile
 ```
-                     BloodLink Platform
 
-                           ☁
-                 Firebase Cloud Platform
-                           │
-      ┌────────────────────┼────────────────────┐
-      │                    │                    │
-      ▼                    ▼                    ▼
+</div>
 
-🩸 Donor Portal      🏥 Hospital Portal    🏦 Blood Bank Portal
+This role-driven approach keeps each workflow focused while allowing hospitals, blood banks, and donors to collaborate through real-time cloud synchronization.
 
-Register             Patient Requests      Inventory Control
-Donation History     Emergency Requests    Stock Management
-Request Blood        Dashboard             Availability Updates
-Nearby Requests      Communication         Distribution Tracking
-Profile              Inventory             Service Management
-```
+---
 
-Each portal operates independently while remaining synchronized through Firebase services, allowing real-time information exchange without compromising role-specific functionality.
+# ✨ Core Platform Capabilities
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+### 👤 User Experience
+
+- Secure Authentication
+- Google Sign-In
+- Role-Based Navigation
+- Responsive Material 3 UI
+- Profile Management
+- Cloud Synchronization
+
+</td>
+
+<td width="50%">
+
+### 🏥 Healthcare Workflows
+
+- Emergency Blood Requests
+- Blood Inventory Management
+- Hospital Coordination
+- Donor Discovery
+- Request Tracking
+- Institution Management
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 📱 User Experience
+
+BloodLink follows **Material Design 3** principles to provide a clean, accessible, and consistent experience across all user roles.
+
+Whether users are creating an emergency blood request, updating inventory, or responding as a donor, the interface remains intuitive while minimizing unnecessary interactions during time-sensitive situations.
+
+<p align="center">
+
+<img src="../assets/screenshots/BloodLink/login.png" width="23%" alt="Login"/>
+
+<img src="../assets/screenshots/BloodLink/home.png" width="23%" alt="Home"/>
+
+<img src="../assets/screenshots/BloodLink/request.png" width="23%" alt="Request"/>
+
+<img src="../assets/screenshots/BloodLink/my_request.png" width="23%" alt="My Requests"/>
+
+</p>
+
+The interface has been designed with a consistent visual language across donor, hospital, and blood bank workflows to reduce the learning curve while maintaining a professional healthcare-focused experience.
 
 ---
 
@@ -95,454 +231,376 @@ The project was intentionally designed to explore several real-world software en
 Throughout development, the emphasis has remained on maintainability, scalability, and long-term extensibility rather than simply implementing features.
 
 ---
+---
 
-# 🏛 System Architecture
+# 🏗 Architecture Overview
 
-BloodLink follows a **role-driven MVVM architecture** with a centralized cloud backend powered by Firebase. Rather than maintaining separate applications for each stakeholder, the platform provides independent user experiences through a unified Android application.
+BloodLink follows a **role-driven MVVM architecture** designed to support multiple healthcare stakeholders within a single Android application.
 
-This architecture allows shared business logic, reusable UI components, and centralized data management while keeping donor, hospital, and blood bank workflows isolated.
+Instead of maintaining separate applications for donors, hospitals, and blood banks, BloodLink provides independent user experiences through shared business logic, centralized cloud services, and reusable UI components.
 
+This approach simplifies maintenance, reduces code duplication, and allows new healthcare workflows to be introduced without major architectural changes.
+
+<div align="center">
+
+```text
+                   🩸 BloodLink
+
+             Jetpack Compose UI
+                     │
+             ViewModels (MVVM)
+                     │
+            Repository Pattern
+                     │
+     ┌───────────────┼────────────────┐
+     ▼               ▼                ▼
+Firebase Auth   Cloud Firestore   Firebase Storage
+     │               │                │
+ Authentication  Real-Time Data   Profile Images
+ User Roles      Blood Requests   Documents
 ```
-                     Android Application
 
-                  ┌──────────────────────┐
-                  │    Jetpack Compose   │
-                  │  Presentation Layer  │
-                  └──────────┬───────────┘
-                             │
-                     ViewModels (MVVM)
-                             │
-                    Repository Pattern
-                             │
-      ┌──────────────────────┼──────────────────────┐
-      │                      │                      │
- Firebase Auth         Cloud Firestore      Firebase Storage
-      │                      │                      │
- Authentication      Application Data       Medical Documents
- User Roles          Inventory              Profile Images
- Session             Requests               Supporting Files
-```
+</div>
 
-The application is organized to keep UI, business logic, and cloud services independent, making future feature development significantly easier.
+Application state is managed using **StateFlow** and **Kotlin Coroutines**, ensuring the user interface remains synchronized with cloud data while maintaining a smooth and responsive experience.
 
 ---
 
-# 🔐 Authentication & User Management
+# ⚙ Technology Stack
 
-BloodLink implements a **role-based authentication system** that provides different application experiences based on the authenticated user's role.
+| Category | Technology |
+|-----------|------------|
+| **Language** | Kotlin |
+| **UI Framework** | Jetpack Compose |
+| **Architecture** | MVVM + Repository Pattern |
+| **Backend** | Firebase |
+| **Authentication** | Firebase Authentication |
+| **Database** | Cloud Firestore |
+| **Storage** | Firebase Storage |
+| **State Management** | StateFlow + Coroutines |
+| **Dependency Injection** | Hilt |
+| **Design System** | Material Design 3 |
+| **Maps & Location** | Google Maps SDK |
 
-## Current Authentication Methods
+---
 
-- Email & Password Authentication
+# 🚀 Engineering Highlights
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+### ☁ Cloud Platform
+
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+- Real-time Synchronization
+- Secure User Management
+- Cloud-based Workflows
+
+</td>
+
+<td width="50%">
+
+### ⚡ Android Engineering
+
+- Jetpack Compose
+- MVVM Architecture
+- Repository Pattern
+- Kotlin Coroutines
+- StateFlow
+- Hilt Dependency Injection
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 📊 Technical Highlights
+
+| Category | Implementation |
+|----------|----------------|
+| 🏛 Architecture | MVVM + Repository Pattern |
+| ☁ Backend | Firebase Cloud Platform |
+| 🔐 Authentication | Email/Password + Google Sign-In |
+| 🔄 Synchronization | Cloud Firestore |
+| 📦 State Management | StateFlow |
+| 🧭 Navigation | Role-Based Navigation |
+| 📱 UI | Jetpack Compose + Material 3 |
+| 📍 Maps | Google Maps Integration |
+
+
+---
+
+# ☁ Platform Services
+
+BloodLink combines modern Android development with cloud-native infrastructure to provide secure authentication, real-time synchronization, and scalable healthcare workflows.
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+### 🔐 Authentication
+
+- Email & Password Sign-In
 - Google Sign-In
-- Role Selection during Registration
+- Secure Session Management
+- Role-Based Access Control
 
-Phone number authentication using OTP is currently under development as part of the authentication roadmap.
+</td>
 
-After successful authentication, every account is associated with one of three platform roles:
+<td width="50%">
 
-- 🩸 Blood Donor
-- 🏥 Hospital
-- 🏦 Blood Bank
+### ☁ Cloud Platform
 
-Each role is granted access only to the features and data relevant to its responsibilities.
+- Cloud Firestore
+- Firebase Storage
+- Real-Time Synchronization
+- Secure Cloud Infrastructure
 
-This approach simplifies the user experience while ensuring that operational workflows remain logically separated.
+</td>
 
----
+</tr>
 
-# ☁ Cloud Infrastructure
+<tr>
 
-BloodLink uses Firebase as its backend platform, allowing rapid development while maintaining scalability and secure cloud synchronization.
+<td width="50%">
 
-### Firebase Authentication
+### 📍 Location Services
 
-Responsible for
+- Nearby Hospital Discovery
+- Google Maps Integration
+- External Navigation Support
+- Location-Aware Workflows
 
-- User registration
-- Secure login
-- Google authentication
-- Session management
+</td>
 
----
+<td width="50%">
 
-### Cloud Firestore
+### 🔔 Communication
 
-Firestore serves as the primary database for the platform.
+- Phone Call Integration
+- SMS Support
+- Emergency Notifications *(Planned)*
+- In-App Messaging *(Roadmap)*
 
-It stores
+</td>
 
-- User profiles
-- Blood requests
-- Hospital information
-- Blood bank information
-- Donation records
-- Inventory information
-- Request history
-- Application metadata
+</tr>
 
-The NoSQL data model allows each user role to maintain independent collections while enabling controlled relationships between them.
+</table>
 
 ---
 
-### Firebase Storage
+# 🩸 Role-Based Workflows
 
-Storage is used for files that should not be stored directly inside Firestore.
+BloodLink delivers a personalized experience for every stakeholder while sharing the same secure backend infrastructure.
 
-Examples include
+| Role | Primary Responsibilities |
+|------|--------------------------|
+| 🩸 **Donor** | Donate blood, manage requests, view nearby hospitals, maintain donor profile |
+| 🏥 **Hospital** | Create emergency requests, monitor inventory, coordinate with donors |
+| 🏦 **Blood Bank** | Manage blood stock, update availability, respond to institutional requests |
 
-- Profile images
-- Supporting documents
-- Future medical attachments
-
-This keeps Firestore lightweight while allowing secure cloud file management.
-
----
-
-# 🧩 Role-Based Platform Design
-
-Instead of exposing every feature to every user, BloodLink dynamically adapts the interface according to the authenticated user's role.
-
-## 🩸 Donor Portal
-
-Designed for individuals willing to donate blood or request blood when needed.
-
-Core capabilities include
-
-- Account management
-- Donation history
-- Blood request creation
-- View active community requests
-- Contact hospitals and donors
-- Nearby request discovery
-- Profile management
+Each workflow is independently designed while remaining synchronized through Firebase Cloud Firestore.
 
 ---
 
-## 🏥 Hospital Portal
+# 💡 Engineering Decisions
 
-Hospitals receive operational tools designed specifically for medical staff.
+Several architectural decisions guided the development of BloodLink.
 
-Current capabilities include
+- Single application supporting multiple healthcare roles.
+- Shared cloud infrastructure with role-specific workflows.
+- Reactive state management using StateFlow.
+- MVVM with Repository Pattern for maintainability.
+- Cloud-first synchronization through Firebase.
+- Modular architecture prepared for future expansion.
 
-- Blood inventory overview
-- Patient blood requests
-- Emergency request broadcasting
-- Inventory monitoring
-- Communication with donors
-- Dashboard management
-
----
-
-## 🏦 Blood Bank Portal
-
-Blood banks manage the availability and distribution of blood units.
-
-Capabilities include
-
-- Inventory management
-- Blood stock updates
-- Distribution records
-- Availability tracking
-- Request handling
-- Service management
-
-Each portal follows the same design language while maintaining completely different workflows.
+These decisions allow the platform to evolve without requiring major architectural changes.
 
 ---
 
-# 🌍 Location-Based Services
+# ✨ Feature Showcase
 
-Finding nearby blood donors is one of the key objectives of the platform.
+<table>
 
-The current implementation uses
+<tr>
 
-- User-provided city information
-- Saved location details
-- Google Maps integration through external map launching
+<td width="50%">
 
-Future updates will introduce device-based geolocation to improve accuracy and reduce manual location input.
+### 👤 Donor Experience
 
----
+- Registration & Authentication
+- Blood Donation Requests
+- Donation History
+- Nearby Hospitals
+- Request Tracking
+- Profile Management
 
-# 📨 Communication System
+</td>
 
-Rapid communication is essential during medical emergencies.
+<td width="50%">
 
-Current communication options include
+### 🏥 Institutional Experience
 
-- Direct phone calls
-- SMS through external messaging applications
+- Emergency Request Management
+- Blood Inventory
+- Dashboard Overview
+- Blood Availability
+- Institution Profiles
+- Operational Workflows
 
-A built-in real-time chat system is planned for future releases to improve communication between donors, hospitals, and blood banks while keeping conversations within the platform.
+</td>
 
----
+</tr>
 
-# 🔔 Notification Architecture
-
-The notification system is currently under active development.
-
-Planned notification categories include
-
-- Emergency blood requests
-- Donation reminders
-- Blood availability updates
-- Request status changes
-- Inventory alerts
-- Important account notifications
-
-The objective is to deliver relevant information without overwhelming users with unnecessary notifications.
-
----
-
-# 🧠 Engineering Decisions
-
-Several design decisions were made early in development to support long-term scalability.
-
-### Single Application • Multiple Experiences
-
-Rather than maintaining three independent applications, BloodLink delivers separate experiences from a shared codebase using role-driven navigation.
-
-This significantly reduces maintenance effort while ensuring a consistent user experience.
-
----
-
-### Cloud-First Synchronization
-
-Application data is synchronized through Firebase services, allowing hospitals, blood banks, and donors to work with the latest available information without manual coordination.
-
----
-
-### Modular Feature Growth
-
-Many advanced capabilities—including phone OTP authentication, in-app messaging, push notifications, and enhanced location services—have been planned as modular extensions rather than tightly coupled features.
-
-This allows the platform to evolve incrementally without requiring architectural redesign.
-
----
-
-# ✨ Platform Capabilities
-
-BloodLink is designed as a **multi-role healthcare platform**, where each stakeholder interacts with the system through workflows tailored to their responsibilities. Instead of providing a one-size-fits-all experience, every portal is optimized around the day-to-day tasks of its users.
-
----
-
-## 🩸 Donor Experience
-
-The donor portal is designed to simplify the process of blood donation while providing transparency throughout every interaction.
-
-### Core Features
-
-- Secure registration using Email/Password or Google Sign-In
-- Personalized donor profile
-- Create blood requests
-- Browse active blood requests within the community
-- Donation history
-- Request management
-- View nearby hospitals and blood banks
-- Contact hospitals directly through phone or SMS
-- Blood group and profile management
-
-The donor experience prioritizes simplicity, ensuring users can request or donate blood with minimal friction during emergencies.
-
----
-
-## 🏥 Hospital Portal
-
-Hospitals require operational tools rather than traditional consumer interfaces.
-
-The hospital dashboard focuses on improving coordination between patients, donors, and blood banks.
-
-### Current Features
-
-- Hospital profile management
-- Blood inventory monitoring
-- Patient request management
-- Emergency request creation
-- Dashboard overview
-- Blood availability tracking
-- Communication with donors
-- Service management
-
-The interface is designed to reduce administrative effort while providing quick access to critical information.
-
----
-
-## 🏦 Blood Bank Portal
-
-Blood banks operate as inventory providers within the ecosystem.
-
-Their workflow focuses on maintaining accurate stock information while responding efficiently to requests.
-
-### Current Features
-
-- Blood inventory management
-- Blood stock updates
-- Availability management
-- Distribution tracking
-- Request handling
-- Dashboard analytics
-- Institution profile management
-
-Future iterations will introduce additional inventory intelligence and operational analytics.
-
----
-
-# 📊 Engineering Highlights
-
-BloodLink was developed with long-term maintainability in mind.
-
-Rather than focusing solely on feature implementation, significant attention was given to architecture and scalability.
-
-| Engineering Area | Implementation |
-|------------------|----------------|
-| Architecture | MVVM + Clean Architecture |
-| UI Framework | Jetpack Compose |
-| Authentication | Firebase Auth + Google Sign-In |
-| Database | Cloud Firestore |
-| File Storage | Firebase Storage |
-| State Management | StateFlow |
-| Dependency Injection | Hilt |
-| Navigation | Navigation Compose |
-| Backend | Firebase Cloud Platform |
-| Design System | Material Design 3 |
-
+</table>
 ---
 
 # 🚧 Engineering Challenges
 
-Developing BloodLink introduced challenges that extended beyond Android development and into system design.
+Building BloodLink involved solving challenges that extended beyond Android development and into software architecture, cloud infrastructure, and user experience design.
 
-### Multi-Role Application Design
+### 🏗 Multi-Role System Design
 
-One of the largest challenges was designing a single application capable of serving three completely different user groups without duplicating code or compromising usability.
-
-Each role required unique navigation flows, independent business logic, and dedicated user interfaces while still sharing common infrastructure.
+Designing a single application for donors, hospitals, and blood banks required independent workflows while maintaining a shared codebase. Each role has dedicated navigation, permissions, and business logic without duplicating infrastructure.
 
 ---
 
-### Cloud Data Organization
+### ☁ Real-Time Cloud Synchronization
 
-Designing Firestore collections required balancing flexibility with maintainability.
-
-User information, blood requests, hospitals, inventories, and blood banks all needed to remain logically separated while supporting efficient queries across the platform.
+Maintaining consistent data across multiple users required careful Firestore data modeling and reactive state management using StateFlow and Kotlin Coroutines.
 
 ---
 
-### User Experience During Emergencies
+### ❤️ Healthcare-Focused UX
 
-Unlike traditional CRUD applications, BloodLink is intended for situations where users may be under stress.
-
-This influenced many interface decisions, emphasizing clarity, accessibility, and minimizing the number of actions required to complete important tasks.
+BloodLink is intended for situations where users may be under stress. The interface was designed to minimize unnecessary interactions, keeping important actions accessible within as few steps as possible.
 
 ---
 
-### Planning for Future Expansion
+### 📈 Designing for Scale
 
-Although the project is currently in the MVP stage, the architecture was intentionally designed to accommodate future capabilities such as
-
-- Phone OTP Authentication
-- Push Notifications
-- In-App Messaging
-- Real-time Communication
-- Geolocation Services
-- Administrative Dashboard
-- Advanced Analytics
-
-without requiring a complete redesign.
+The project architecture was planned with future expansion in mind, allowing features such as push notifications, OTP authentication, in-app messaging, analytics, and advanced location services to be introduced without major architectural changes.
 
 ---
 
-# 📚 Lessons Learned
+# 📚 Key Learnings
 
-BloodLink has been my most technically challenging Android project to date.
+BloodLink has been my most technically challenging Android project and significantly improved my understanding of building production-oriented applications.
 
-Through its development, I gained practical experience in
+Through this project I gained practical experience in:
 
 - Designing scalable Android architectures.
-- Building applications around multiple user roles.
-- Structuring cloud databases using Firestore.
-- Managing complex application state with StateFlow.
+- Building multi-role applications.
+- Structuring Cloud Firestore databases.
+- Managing reactive UI with StateFlow.
 - Developing reusable Jetpack Compose components.
-- Integrating authentication with Firebase.
-- Organizing medium-scale Android codebases using Clean Architecture.
-- Thinking beyond feature implementation toward long-term product evolution.
+- Applying MVVM and Repository Pattern in medium-scale projects.
+- Building cloud-connected applications using Firebase services.
+- Planning software with long-term maintainability in mind.
 
-More importantly, this project strengthened my understanding that successful software development is not only about writing code—it is about designing systems that remain maintainable as requirements evolve.
+More importantly, the project reinforced that good software engineering is not only about implementing features, but also about designing systems that remain maintainable as requirements evolve.
 
 ---
 
-# 🚀 Current Development Status
+# 🚀 Development Status
 
-BloodLink is currently under active development as a Minimum Viable Product (MVP).
+| Status | Progress |
+|:------:|----------|
+| ✅ | Multi-role Authentication |
+| ✅ | Donor Portal |
+| ✅ | Hospital Portal |
+| ✅ | Blood Bank Portal |
+| ✅ | Emergency Request Management |
+| ✅ | Cloud Synchronization |
+| ✅ | Inventory Management |
+| ✅ | Google Maps Integration |
+| 🚧 | Phone OTP Authentication |
+| 🚧 | Push Notifications |
+| 🚧 | Reminder System |
+| 📅 | Real-Time Chat |
+| 📅 | Device Geolocation |
+| 📅 | Administrative Dashboard |
+| 📅 | Analytics & Reporting |
 
-### Implemented
+---
 
-- Multi-role authentication
-- Email & Password login
-- Google Sign-In
-- Donor workflow
-- Hospital workflow
-- Blood Bank workflow
-- Cloud synchronization
-- Inventory management
-- Request management
-- Firebase backend
+# 📚 Explore Technical Documentation
 
-### In Progress
+This page provides a high-level overview of BloodLink.
 
-- Phone OTP Authentication
-- Push Notifications
-- Reminder System
-- Emergency Alert Notifications
+For a deeper understanding of the platform's architecture, implementation, and engineering decisions, explore the complete technical documentation.
 
-### Planned
+| 📖 Document | Description |
+|-------------|-------------|
+| [Overview](./bloodlink/OVERVIEW.md) | Project overview and repository guide |
+| [Features](./bloodlink/FEATURES.md) | Complete feature reference |
+| [Architecture](./bloodlink/ARCHITECTURE.md) | System architecture and design |
+| [Implementation](./bloodlink/IMPLEMENTATION.md) | Runtime workflows and implementation |
+| [Engineering Decisions](./bloodlink/DECISIONS.md) | Design rationale and technology choices |
+| [Roadmap](./bloodlink/ROADMAP.md) | Planned development and future milestones |
 
-- Real-time Chat
-- Device Geolocation
-- Interactive Maps
-- Administrative Dashboard
-- Advanced Reporting
-- Platform Analytics
+> **Interested in the engineering behind BloodLink?**  
+> The documents above provide a detailed breakdown of the platform's architecture, implementation, and future direction.
 
 ---
 
 # 📸 Project Gallery
 
-> Screenshots below demonstrate the current MVP implementation.
+A glimpse into the current MVP implementation of BloodLink.
 
-| Login | Donor Dashboard |
-|--------|-----------------|
-| <img src="assets/bloodlink/login.png" width="100%"> | <img src="assets/bloodlink/donor_dashboard.png" width="100%"> |
+<p align="center">
 
-| Hospital Portal | Blood Bank Portal |
-|-----------------|-------------------|
-| <img src="assets/bloodlink/hospital_dashboard.png" width="100%"> | <img src="assets/bloodlink/bloodbank_dashboard.png" width="100%"> |
+<img src="../assets/screenshots/BloodLink/login.png" width="23%" alt="Login"/>
 
-| Blood Requests | Inventory |
-|----------------|-----------|
-| <img src="assets/bloodlink/requests.png" width="100%"> | <img src="assets/bloodlink/inventory.png" width="100%"> |
+<img src="../assets/screenshots/BloodLink/home.png" width="23%" alt="Home"/>
+
+<img src="../assets/screenshots/BloodLink/request.png" width="23%" alt="Request"/>
+
+<img src="../assets/screenshots/BloodLink/my_request.png" width="23%" alt="My Requests"/>
+
+</p>
+
+Additional screenshots and technical walkthroughs are available throughout the repository documentation.
 
 ---
 
-# ❤️ Final Thoughts
+# 💭 Final Thoughts
 
-BloodLink represents much more than an Android application.
+BloodLink represents my effort to apply modern Android development practices to a real-world healthcare problem.
 
-It reflects my journey toward designing software that addresses real-world challenges through thoughtful architecture, modern Android development practices, and scalable cloud technologies.
+The project combines Jetpack Compose, Firebase, MVVM, and cloud-native architecture to create a scalable platform capable of supporting collaboration between donors, hospitals, and blood banks.
 
-As development continues, I intend to expand the platform with additional capabilities while preserving the principles that guided its initial design: simplicity, maintainability, and meaningful impact.
+As development continues, the platform will evolve with new capabilities while preserving the architectural principles of scalability, maintainability, and user-centered design established during its initial development.
 
 ---
 
 <div align="center">
 
-### ⭐ If you enjoyed exploring this project, consider giving the repository a star!
+### ⭐ Thank you for exploring BloodLink!
+
+If you found this project interesting, consider exploring the technical documentation or starring the repository.
+
+<br>
 
 <a href="https://github.com/devilyash10/BloodLink_Android_App">
-<img src="https://img.shields.io/badge/View_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/⭐%20View%20Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+&nbsp;
+
+<a href="./bloodlink/OVERVIEW.md">
+<img src="https://img.shields.io/badge/📖%20Technical%20Documentation-0A66C2?style=for-the-badge">
 </a>
 
 </div>
-
----

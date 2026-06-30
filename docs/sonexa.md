@@ -1,257 +1,283 @@
 <!-- ========================================================== -->
-<!--                     FEATURED PROJECT                        -->
+<!--                          SONEXA                            -->
 <!-- ========================================================== -->
 
 <div align="center">
 
 # 🎵 Sonexa
 
-### *A Modern Music Streaming Experience for Android*
+### *A Modern Android Music Streaming Application*
 
-*Designed with performance, built with modern Android architecture, and crafted to deliver a seamless listening experience.*
+**Built with Jetpack Compose, Media3, and Clean Architecture to deliver a smooth, responsive, and production-oriented music experience.**
 
 <br>
 
-<img src="assets/sonexa/banner.png" width="100%"/>
+<img src="../assets/covers/sonexa-cover.png" width="100%" alt="Sonexa Cover"/>
 
 <br><br>
 
+![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Material 3](https://img.shields.io/badge/Material_3-6750A4?style=for-the-badge)
+![Media3](https://img.shields.io/badge/Media3-ExoPlayer-0F9D58?style=for-the-badge)
 ![MVVM](https://img.shields.io/badge/MVVM-Clean_Architecture-success?style=for-the-badge)
-![ExoPlayer](https://img.shields.io/badge/ExoPlayer-Media3-blue?style=for-the-badge)
-![Retrofit](https://img.shields.io/badge/Retrofit-REST_API-orange?style=for-the-badge)
 
 </div>
 
 ---
+<p align="center">
 
-# 📖 Overview
+<a href="#-project-highlights">
+<img src="https://img.shields.io/badge/✨-Highlights-7F52FF?style=flat-square">
+</a>
 
-Sonexa is a production-oriented Android music streaming application developed to explore the capabilities of modern Android development while delivering a smooth, responsive, and visually engaging media experience.
+<a href="#-user-interface">
+<img src="https://img.shields.io/badge/📱-UI-4285F4?style=flat-square">
+</a>
 
-Unlike traditional music player projects that focus only on playback, Sonexa was engineered as a complete Android application that emphasizes clean architecture, asynchronous programming, responsive UI state management, and scalable application design.
+<a href="#-architecture-overview">
+<img src="https://img.shields.io/badge/🏗-Architecture-0F9D58?style=flat-square">
+</a>
 
-The project combines Jetpack Compose, Kotlin Coroutines, StateFlow, ExoPlayer, Retrofit, and Material Design 3 to create an application that remains responsive even during complex playback operations, network requests, and UI recompositions.
+<a href="#-feature-showcase">
+<img src="https://img.shields.io/badge/🎵-Features-F57C00?style=flat-square">
+</a>
 
-Beyond being a music player, Sonexa represents my approach toward writing maintainable software through modular architecture, reusable components, and thoughtful engineering decisions.
+<a href="#-explore-technical-documentation">
+<img src="https://img.shields.io/badge/📚-Docs-D32F2F?style=flat-square">
+</a>
 
----
-
-# 💡 Why I Built Sonexa
-
-Modern Android development has evolved significantly with Jetpack Compose and declarative UI, yet many music player examples available online still rely on outdated architectures or simplistic implementations.
-
-I wanted to challenge myself by building an application that combines several real-world engineering problems into a single project:
-
-- asynchronous media streaming
-- responsive playback controls
-- efficient network communication
-- intelligent response caching
-- dynamic UI rendering
-- scalable application architecture
-
-The objective wasn't simply to build another music player—it was to deepen my understanding of production-ready Android engineering.
+</p>
 
 ---
 
-# 🏗 Architecture & Engineering
+# 📖 Executive Summary
 
-Sonexa is designed around **MVVM (Model–View–ViewModel)** and **Clean Architecture** principles, ensuring a clear separation of concerns between the presentation layer, business logic, and data sources. This structure keeps the codebase scalable, maintainable, and easy to extend as new features are introduced.
+Sonexa is a modern Android music streaming application developed to explore production-ready Android engineering using the latest Jetpack libraries and architectural best practices.
 
-The application follows a reactive programming approach using **Kotlin Coroutines** and **StateFlow**, allowing the UI to automatically respond to changes in playback state, network connectivity, playlists, and user interactions without unnecessary recompositions.
+The project combines **Jetpack Compose**, **Media3 ExoPlayer**, **MVVM**, **Kotlin Coroutines**, **StateFlow**, **Room Database**, and **Retrofit** to create a responsive, scalable, and maintainable media application that supports both local playback and online streaming.
 
-```
-                 Presentation Layer
-             (Jetpack Compose UI)
-
-                        │
-
-                ViewModel Layer
-        (StateFlow • UI State • Events)
-
-                        │
-
-                Repository Layer
-      (Business Logic & Data Management)
-
-            ┌───────────┴───────────┐
-            │                       │
-     Remote Data Source      Local Data Source
-     (Retrofit REST API)     (Room Database)
-
-            │                       │
-            └───────────┬───────────┘
-                        │
-
-                 ExoPlayer Engine
-          (Playback • Queue • AudioFX)
-```
-
-This layered architecture enables independent development, easier debugging, and better testability while keeping UI components lightweight and focused solely on rendering state.
+Rather than focusing only on audio playback, Sonexa emphasizes software architecture, reactive UI development, asynchronous programming, and user experience—making it a practical demonstration of building medium-scale Android applications with modern development practices.
 
 ---
 
-# ⚙ Engineering Highlights
+# 🎯 Why Sonexa?
 
-### 🎨 Modern Declarative UI
+Most Android music player projects demonstrate only basic playback functionality. Sonexa was built to explore the engineering challenges involved in creating a production-oriented media application using modern Android technologies.
 
-The complete interface is developed using **Jetpack Compose** and **Material Design 3**, replacing traditional XML layouts with a fully declarative UI framework.
+The project focuses on building a responsive, scalable, and maintainable music streaming experience while applying current Android development practices throughout the entire application lifecycle.
 
-This approach provides
-
-- Smooth animations
-- Better state management
-- Reusable composables
-- Cleaner UI code
-- Faster feature development
+Instead of treating playback as an isolated feature, Sonexa integrates networking, local persistence, reactive state management, and media services into a unified architecture designed for long-term scalability.
 
 ---
 
-### 🎵 Advanced Audio Engine
+# ✨ Project Highlights
 
-Playback is powered by **Android Media3 ExoPlayer**, supporting
+<table>
+<tr>
+
+<td width="50%">
+
+### 🎵 Media Experience
 
 - Online music streaming
-- Local device playback
+- Local audio playback
 - Background playback
-- Notification controls
-- Lock screen controls
-- MediaSession integration
+- Media notification controls
 - Queue management
-- Shuffle & Repeat modes
-- Built-in AudioFX Equalizer
+- Shuffle & Repeat
+- Built-in Equalizer
 
-The player lifecycle is synchronized with Compose state to ensure responsive playback controls without UI inconsistencies.
+</td>
 
----
+<td width="50%">
 
-### 🌐 Network Layer
+### ⚙ Engineering
 
-Online streaming is implemented using **Retrofit** together with **OkHttp**, enabling efficient communication with remote music APIs.
+- Jetpack Compose
+- MVVM Architecture
+- Repository Pattern
+- Kotlin Coroutines
+- StateFlow
+- Room Database
+- Retrofit API
+- Material Design 3
 
-The networking layer includes
+</td>
 
-- Response caching
-- Request interception
-- Automatic JSON parsing
-- Coroutine-based asynchronous requests
-- Graceful error handling
-
-This significantly reduces unnecessary bandwidth usage while improving playback reliability under unstable network conditions.
-
----
-
-### 💾 Local Data Management
-
-Room Database is used to persist application data locally, including
-
-- Favourite songs
-- Recently played tracks
-- Most played songs
-- User preferences
-- Cached application data
-
-The offline-first design ensures that core application functionality remains available even when network connectivity is limited.
+</tr>
+</table>
 
 ---
 
-### 🔄 Reactive State Management
+# 📱 User Interface
 
-StateFlow is used as the primary state management mechanism throughout the application.
+Sonexa follows Material Design 3 principles with an emphasis on clean navigation, immersive playback, and responsive interactions.
 
-Instead of manually refreshing the UI, every screen automatically observes state changes emitted by the ViewModel.
+The interface is designed to make browsing music, managing playlists, and controlling playback feel fast, intuitive, and consistent across the application.
 
-This architecture powers
+<p align="center">
 
-- Playback progress updates
-- Queue changes
-- Search results
-- Playlist modifications
-- Equalizer settings
-- Theme switching
-- Music library updates
+<img src="../assets/screenshots/Sonexa/home.png" width="23%" alt="Home"/>
 
-while keeping UI rendering smooth and predictable.
+<img src="../assets/screenshots/Sonexa/player.png" width="23%" alt="Player"/>
+
+<img src="../assets/screenshots/Sonexa/equalizer.png" width="23%" alt="Equalizer"/>
+
+<img src="../assets/screenshots/Sonexa/playlist.png" width="23%" alt="Playlist"/>
+
+</p>
+
 
 ---
 
-# ✨ Core Capabilities
+# 🏗 Architecture Overview
 
-| Category | Functionality |
-|----------|---------------|
-| 🎵 Playback | Online Streaming, Local Playback, Queue Management |
-| 📂 Library | Albums, Artists, Favourites, Recent, Most Played |
-| 🔎 Discovery | Music Search, Dynamic Filtering |
-| 🎚 Audio | AudioFX Equalizer, Shuffle, Repeat |
-| 🎨 Interface | Material 3, Dark Mode, Adaptive Layouts |
-| ⚡ Performance | Coroutines, StateFlow, Response Caching |
-| 📱 System | Background Playback, Notifications, MediaSession |
-| 💾 Storage | Room Database, Offline Preferences |
+Sonexa is designed around **MVVM (Model–View–ViewModel)** and **Clean Architecture**, providing a clear separation between the user interface, business logic, and data sources.
+
+Instead of tightly coupling playback logic with UI components, each layer has a well-defined responsibility, making the application easier to maintain, test, and extend as new features are introduced.
+
+<div align="center">
+
+```text
+                 🎵 Sonexa
+
+        ┌─────────────────────────┐
+        │   Jetpack Compose UI    │
+        └────────────┬────────────┘
+                     │
+              ViewModels (MVVM)
+                     │
+             Repository Pattern
+                     │
+      ┌──────────────┼──────────────┐
+      ▼              ▼              ▼
+   Media3        Retrofit API      Room DB
+  ExoPlayer      Music Service   Local Storage
+```
+
+</div>
+
+The application follows a reactive programming model powered by **StateFlow** and **Kotlin Coroutines**, allowing playback state, playlists, search results, and UI updates to remain synchronized without manual refresh logic.
+
+---
+
+# ⚙ Technology Stack
+
+| Category | Technology |
+|-----------|------------|
+| **Language** | Kotlin |
+| **UI Framework** | Jetpack Compose |
+| **Architecture** | MVVM + Repository Pattern |
+| **Media Engine** | Android Media3 (ExoPlayer) |
+| **Networking** | Retrofit + OkHttp |
+| **Local Storage** | Room Database |
+| **State Management** | StateFlow + Coroutines |
+| **Dependency Injection** | Hilt |
+| **Design System** | Material Design 3 |
+
+---
+
+# 🚀 Engineering Highlights
+
+<table>
+<tr>
+
+<td width="50%">
+
+### 🎵 Playback Engine
+
+- Media3 ExoPlayer
+- Background Playback
+- Media Session
+- Notification Controls
+- Queue Management
+- Audio Focus Handling
+
+</td>
+
+<td width="50%">
+
+### ⚡ Performance
+
+- Coroutine-based Networking
+- Response Caching
+- Optimized Recomposition
+- Reactive State Updates
+- Smooth 60 FPS UI
+- Offline Preferences
+
+</td>
+
+</tr>
+</table>
 
 ---
 
 # 📊 Technical Metrics
 
-| Metric | Achievement |
-|---------|-------------|
+| Metric | Result |
+|---------|--------|
 | 🎧 Music Library | 10,000+ Tracks |
-| ⚡ Buffering Latency | Reduced by **35%** |
-| 🌐 Bandwidth Usage | Reduced by **40%** |
+| ⚡ Playback Latency | Reduced by **35%** |
+| 🌐 Network Optimization | Reduced bandwidth usage by **40%** |
 | 🎨 UI Performance | Stable **60 FPS** |
 | 🏗 Architecture | MVVM + Clean Architecture |
-| 🔄 State Management | Kotlin StateFlow |
-| 🎼 Audio Engine | Android Media3 ExoPlayer |
+| 🔄 Reactive State | Kotlin StateFlow |
 
 ---
 
-# 🚀 Feature Showcase
+# ✨ Feature Showcase
 
-<details>
-<summary><b>🎵 Music Streaming Experience</b></summary>
+<details open>
+<summary><b>🎵 Music Streaming</b></summary>
 
-- Stream songs from a remote music library using Retrofit APIs.
-- Seamless playback powered by Android Media3 ExoPlayer.
-- Smart buffering for uninterrupted listening.
-- Optimized streaming through OkHttp response caching.
-- Support for large online music libraries with responsive navigation.
+<br>
+
+- Stream music from online sources using Retrofit APIs.
+- Play local audio files stored on the device.
+- Intelligent buffering for smoother playback.
+- Queue management with seamless track transitions.
+- Fast loading with optimized network requests.
 
 </details>
 
 <details>
-<summary><b>🎧 Audio Playback & Controls</b></summary>
+<summary><b>🎧 Playback Experience</b></summary>
+
+<br>
 
 - Background playback support
-- Lock screen media controls
-- Notification media controls
-- Queue management
-- Shuffle & Repeat modes
-- Seek controls
-- Mini Player
-- Full-screen Player
+- Media notification controls
+- Lock screen controls
 - MediaSession integration
-- Audio focus handling
+- Shuffle & Repeat modes
+- Mini Player & Full Player
+- Audio focus management
+- Playback progress synchronization
 
 </details>
 
 <details>
-<summary><b>🎚 AudioFX Equalizer</b></summary>
+<summary><b>🎚 Audio Controls</b></summary>
 
-Built-in equalizer allowing users to personalize their listening experience without relying on third-party applications.
+<br>
 
-Features include
+Customize your listening experience using Android's AudioFX engine.
 
-- Multiple frequency bands
+- Multi-band Equalizer
 - Real-time audio adjustments
 - Bass enhancement
 - Preset support
-- Smooth UI synchronization using StateFlow
+- Reactive Compose UI
 
 </details>
 
 <details>
 <summary><b>📂 Music Library</b></summary>
+
+<br>
 
 Organize and browse your music effortlessly.
 
@@ -261,162 +287,157 @@ Organize and browse your music effortlessly.
 - Favourites
 - Recently Played
 - Most Played
-- Search
+- Smart Search
 - Dynamic Filtering
 
 </details>
 
 <details>
-<summary><b>🎨 Modern Android Experience</b></summary>
+<summary><b>🎨 User Experience</b></summary>
 
-The UI is completely built using Jetpack Compose following Material Design 3 guidelines.
+<br>
 
-Highlights include
+Designed following Material Design 3 principles.
 
 - Adaptive layouts
-- Dark Mode
-- Responsive animations
-- Smooth transitions
-- Declarative UI
-- Reusable composables
+- Dynamic Dark Mode
+- Smooth animations
+- Responsive navigation
+- Modern Compose UI
+- Reusable UI components
 
 </details>
 
 ---
 
-# 📈 Performance Optimizations
+# 🧠 Engineering Challenges
 
-Performance was treated as a first-class requirement throughout the development process.
+Developing Sonexa involved solving several practical Android engineering challenges beyond implementing media playback.
 
-### ⚡ Networking
+### 🎼 Media Engine Integration
 
-✔ Reduced bandwidth usage by **40%**
-
-✔ Intelligent response caching
-
-✔ Optimized Retrofit configuration
-
-✔ Coroutine-based asynchronous requests
+Synchronizing **Media3 ExoPlayer** with a fully declarative **Jetpack Compose** interface required careful lifecycle management to ensure playback remained stable during configuration changes.
 
 ---
 
-### 🎧 Playback
+### 🔄 Reactive State Management
 
-✔ Reduced buffering latency by **35%**
-
-✔ Non-blocking playback pipeline
-
-✔ Smooth queue transitions
-
-✔ Efficient Media3 lifecycle management
+Playback controls, queues, equalizer settings, playlists, and search results all update through a reactive **StateFlow** architecture, eliminating manual UI synchronization.
 
 ---
 
-### 🎨 User Interface
+### 🌐 Balancing Local & Remote Data
 
-✔ Stable **60 FPS** Compose rendering
+Sonexa combines online streaming with locally stored preferences and playback history.
 
-✔ Optimized recomposition
-
-✔ State-driven UI updates
-
-✔ Lightweight composable hierarchy
+Designing a clean separation between remote APIs and local persistence was essential for keeping the application scalable.
 
 ---
 
-### 💾 Storage
+### 📈 Building for Growth
 
-✔ Room Database caching
-
-✔ Offline user preferences
-
-✔ Faster startup experience
-
-✔ Reduced redundant API calls
+The architecture was planned with future expansion in mind, allowing features such as offline downloads, recommendations, cloud playlists, and cross-device synchronization to be added without major structural changes.
 
 ---
 
-# 🧠 Development Challenges
+# 📚 Key Learnings
 
-Every project introduces new engineering challenges. Sonexa provided valuable experience in solving problems commonly encountered in production Android applications.
+This project significantly strengthened my understanding of modern Android development.
 
-### Managing Player Lifecycle
-
-Synchronizing ExoPlayer with Jetpack Compose required careful lifecycle management to ensure playback continued seamlessly across configuration changes while preventing memory leaks.
-
----
-
-### Reactive State Management
-
-Keeping playback controls, queue information, seek position, equalizer state, and UI components synchronized demanded a reactive architecture based on StateFlow rather than manual UI updates.
+- Designing scalable applications using MVVM and Repository Pattern.
+- Building reactive interfaces with Jetpack Compose and StateFlow.
+- Managing asynchronous workflows using Kotlin Coroutines.
+- Integrating Media3 ExoPlayer into production-style applications.
+- Optimizing networking with Retrofit and OkHttp.
+- Structuring medium-scale Android projects using Clean Architecture.
 
 ---
 
-### Balancing Local & Remote Data
+# 🚀 Future Roadmap
 
-The application combines remote music streaming with locally stored preferences and playback history. Designing a clean separation between these data sources while maintaining a consistent user experience was one of the project's key architectural decisions.
+The current implementation establishes a strong architectural foundation, with several enhancements planned to further improve the listening experience and expand the platform's capabilities.
 
----
+| Status | Planned Feature |
+|:------:|-----------------|
+| 🚧 | Offline music downloads |
+| 🚧 | Lyrics synchronization |
+| 🚧 | Cloud playlist synchronization |
+| 🚧 | User authentication |
+| 🚧 | Personalized recommendations |
+| 🚧 | Cross-device playback |
+| 🚧 | Android Auto support |
+| 🚧 | Wear OS companion application |
 
-### Building for Scalability
-
-From the beginning, the codebase was organized to support future expansion without major refactoring. Features such as playlists, favorites, recommendations, and offline playback were considered during architectural planning.
-
----
-
-# 📚 What This Project Taught Me
-
-Developing Sonexa significantly improved my understanding of modern Android engineering.
-
-Key takeaways include
-
-- Designing scalable Android architectures using MVVM and Repository Pattern.
-- Managing asynchronous operations with Kotlin Coroutines.
-- Building reactive user interfaces using StateFlow.
-- Integrating Media3 ExoPlayer into Compose applications.
-- Optimizing network communication through Retrofit and OkHttp.
-- Applying Clean Architecture principles to medium-scale Android applications.
-- Improving UI responsiveness while maintaining readable, maintainable code.
+Future development will continue focusing on performance, scalability, and delivering a polished music experience while preserving the application's clean architecture.
 
 ---
 
-# 🛣 Future Roadmap
+# 📚 Explore Technical Documentation
 
-The current implementation provides a strong foundation for future enhancements.
+This document provides a high-level overview of Sonexa.
 
-- [ ] Offline music downloads
-- ✅ Dynamic color extraction from album artwork
-- [ ] Lyrics synchronization
-- [ ] User authentication
-- [ ] Cloud playlist synchronization
-- [ ] Recommendation engine
-- [ ] Cross-device playback continuity
-- [ ] Android Auto support
-- [ ] Wear OS companion application
+For a deeper understanding of the application's architecture and implementation, explore the detailed technical documentation.
+
+| 📖 Document | Description |
+|-------------|-------------|
+| [Overview](./sonexa/OVERVIEW.md) | Project goals and repository guide |
+| [Features](./sonexa/FEATURES.md) | Complete feature reference |
+| [Architecture](./sonexa/ARCHITECTURE.md) | System architecture and design |
+| [Implementation](./sonexa/IMPLEMENTATION.md) | Runtime workflows and implementation details |
+| [Engineering Decisions](./sonexa/DECISIONS.md) | Technology choices and design rationale |
+| [Roadmap](./sonexa/ROADMAP.md) | Future milestones and planned development |
+
+> **Want to explore the engineering behind Sonexa?**  
+> These documents provide a detailed breakdown of the application's architecture, implementation, and future direction.
 
 ---
 
-# 📸 Gallery
+# 📸 Project Gallery
 
-> *Project screenshots will be added soon.*
+A glimpse into the current implementation of Sonexa.
 
-| Home | Player |
-|------|--------|
-| <img src="assets/sonexa/home.png" width="100%"> | <img src="assets/sonexa/player.png" width="100%"> |
+<p align="center">
 
-| Equalizer | Playlist |
-|-----------|----------|
-| <img src="assets/sonexa/equalizer.png" width="100%"> | <img src="assets/sonexa/playlist.png" width="100%"> |
+<img src="../assets/screenshots/Sonexa/home.png" width="23%" alt="Home"/>
+
+<img src="../assets/screenshots/Sonexa/player.png" width="23%" alt="Player"/>
+
+<img src="../assets/screenshots/Sonexa/equalizer.png" width="23%" alt="Equalizer"/>
+
+<img src="../assets/screenshots/Sonexa/playlist.png" width="23%" alt="Playlist"/>
+
+</p>
+
+Additional screenshots and UI demonstrations are available throughout the repository.
+
+---
+
+# 💭 Final Thoughts
+
+Sonexa represents my journey toward building production-oriented Android applications using modern development practices.
+
+Beyond implementing a music player, the project challenged me to think about software architecture, scalability, reactive programming, performance optimization, and long-term maintainability.
+
+As development continues, Sonexa will evolve with new capabilities while remaining focused on clean architecture, responsive user experience, and modern Android engineering principles.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project interesting, consider giving it a star!
+### ⭐ Thank you for exploring Sonexa!
+
+If you found this project interesting, consider exploring the technical documentation or starring the repository.
+
+<br>
 
 <a href="https://github.com/devilyash10/Sonexa_music_app">
-<img src="https://img.shields.io/badge/View_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/⭐%20View%20Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+&nbsp;
+
+<a href="./sonexa/OVERVIEW.md">
+<img src="https://img.shields.io/badge/📖%20Technical%20Documentation-0A66C2?style=for-the-badge">
 </a>
 
 </div>
-
