@@ -18,7 +18,21 @@ Building scalable Android applications with modern architecture, clean code prin
 
 <td width="25%" align="center">
 
-<img src="assets/profile/profile.png" width="170px" style="border-radius:50%;">
+## 👨‍💻 Profile Snapshot
+
+🎓 B.Tech IT
+
+📱 Android App Developer
+
+☕ DSA in JAVA
+
+🐍 Python Backend
+
+🏗 MVVM & Clean Architecture
+
+☁ Firebase
+
+🇮🇳 India
 
 </td>
 
@@ -30,7 +44,7 @@ I'm an Information Technology undergraduate at **Jabalpur Engineering College (J
 
 I enjoy transforming real-world problems into intuitive mobile experiences using **Kotlin**, **Jetpack Compose**, **MVVM**, and modern Android development practices.
 
-Currently focused on building scalable applications with clean architecture, cloud integration, and thoughtful user experiences while continuously improving my knowledge of backend development and system design.
+Currently focused on building scalable Android applications with clean architecture, cloud integration, and thoughtful user experiences while expanding my expertise in backend development, cloud architecture, and system design.
 
 <br>
 
@@ -200,7 +214,7 @@ width="100%"/>
 
 <a href="./docs/bloodlink.md">
 
-<img src="https://img.shields.io/badge/📖_Documentation-E53935?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📖_Overview-E53935?style=for-the-badge"/>
 
 </a>
 
@@ -209,6 +223,14 @@ width="100%"/>
 <a href="https://github.com/devilyash10/BloodLink">
 
 <img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<br>
+
+<a href="./docs/bloodlink/OVERVIEW.md">
+
+<img src="https://img.shields.io/badge/📚_Technical_Docs-1565C0?style=for-the-badge"/>
 
 </a>
 
@@ -256,10 +278,9 @@ Modern Android music streaming experience built using **Jetpack Compose**, **Med
 `Retrofit` `Room` `AudioFX`
 
 <br>
-
 <a href="./docs/sonexa.md">
 
-<img src="https://img.shields.io/badge/📖_Documentation-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📖_Overview-6C63FF?style=for-the-badge"/>
 
 </a>
 
@@ -268,6 +289,14 @@ Modern Android music streaming experience built using **Jetpack Compose**, **Med
 <a href="https://github.com/devilyash10/Sonexa_music_app">
 
 <img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<br>
+
+<a href="./docs/sonexa/OVERVIEW.md">
+
+<img src="https://img.shields.io/badge/📚_Technical_Docs-1565C0?style=for-the-badge"/>
 
 </a>
 
@@ -281,7 +310,7 @@ Modern Android music streaming experience built using **Jetpack Compose**, **Med
 
 ## 🌦 AtmosLive
 
-Offline-first weather platform featuring local caching, widgets, background updates, and modern Material 3 design.
+Modern Android weather application delivering real-time forecasts through Jetpack Compose, Retrofit, and Clean Architecture. Featuring local caching, widgets, background updates, and modern Material 3 design.
 
 ### Tech
 
@@ -298,10 +327,9 @@ Offline-first weather platform featuring local caching, widgets, background upda
 `Hilt`
 
 <br>
-
 <a href="./docs/atmoslive.md">
 
-<img src="https://img.shields.io/badge/📖_Documentation-2196F3?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📖_Overview-2196F3?style=for-the-badge"/>
 
 </a>
 
@@ -310,6 +338,14 @@ Offline-first weather platform featuring local caching, widgets, background upda
 <a href="https://github.com/devilyash10/dynamic_weather_app">
 
 <img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<br>
+
+<a href="./docs/atmoslive/OVERVIEW.md">
+
+<img src="https://img.shields.io/badge/📚_Technical_Docs-1565C0?style=for-the-badge"/>
 
 </a>
 
@@ -343,15 +379,23 @@ Smart warranty management platform for securely organizing warranties, invoices,
 
 <a href="./docs/warrantywise.md">
 
-<img src="https://img.shields.io/badge/📖_Documentation-43A047?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📖_Overview-43A047?style=for-the-badge"/>
 
 </a>
 
 <br>
 
-<a href="https://github.com/devilyash10">
+<a href="https://github.com/devilyash10/WarrantyWise">
 
 <img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<br>
+
+<a href="./docs/warrantywise/OVERVIEW.md">
+
+<img src="https://img.shields.io/badge/📚_Technical_Docs-1565C0?style=for-the-badge"/>
 
 </a>
 
@@ -360,6 +404,36 @@ Smart warranty management platform for securely organizing warranties, invoices,
 </tr>
 
 </table>
+
+---
+
+<div align="center">
+
+# 📚 Documentation Hub
+
+*Every flagship project includes both a high-level overview and detailed engineering documentation covering architecture, implementation, design decisions, and future roadmap.*
+
+</div>
+
+<br>
+
+| Project | 📖 Overview | 📚 Engineering Documentation |
+|----------|------------|------------------------------|
+| 🩸 **BloodLink** | [Overview](./docs/bloodlink.md) | [Technical Docs](./docs/bloodlink/OVERVIEW.md) |
+| 🎵 **Sonexa** | [Overview](./docs/sonexa.md) | [Technical Docs](./docs/sonexa/OVERVIEW.md) |
+| 🌦 **AtmosLive** | [Overview](./docs/atmoslive.md) | [Technical Docs](./docs/atmoslive/OVERVIEW.md) |
+| 🛡️ **WarrantyWise** | [Overview](./docs/warrantywise.md) | [Technical Docs](./docs/warrantywise/OVERVIEW.md) |
+
+<br>
+
+> **What's inside the engineering documentation?**
+>
+> - 🏗 System Architecture
+> - ⚙ Feature Specifications
+> - 💻 Implementation Details
+> - 🧠 Engineering Decisions
+> - 🚀 Future Roadmap
+> - 📖 Complete Project Overview
 
 ---
 <!-- ========================================================== -->
@@ -396,7 +470,7 @@ A sustainability-focused platform designed to encourage users to monitor and red
 
 **Tech**
 
-`Java Script` `Firebase` `Java` `React`
+`JavaScript` `Firebase` `Java` `React`
 
 ---
 
@@ -492,13 +566,13 @@ Examples include
 
 ## 👨‍🎓 Education
 
-**Bachelor of Technology (B.Tech)**
+**Bachelor of Technology (B.Tech.)**
 
-Information Technology
+**Information Technology**
 
-📍 Jabalpur Engineering College (JEC)
+📍 Jabalpur Engineering College (JEC), Jabalpur
 
-Expected Graduation: **2027**
+🎓 **Expected Graduation:** 2027
 
 ---
 
@@ -517,7 +591,7 @@ Expected Graduation: **2027**
 
 - FastAPI & Backend Development
 - System Design
-- Cloud Architecture
+- Cloud Computing
 - Generative AI
 - Scalable Mobile Applications
 
@@ -526,20 +600,19 @@ Expected Graduation: **2027**
 <td width="50%" valign="top">
 
 ## 📊 Quick Snapshot
-
 📱 **20+** Software Projects
 
 💻 **500+** DSA Problems Solved
 
-☁ Firebase & Cloud Integration
+☁ Cloud-Connected Android Applications
 
-🏗 Production-Oriented Android Apps
+🏗 Production-Oriented Architecture
 
-🎨 Modern Material 3 UI Design
-
-⚡ Offline-First Mobile Applications
+🎨 Modern Material Design 3 UI
 
 🧩 MVVM & Clean Architecture
+
+⚡ Firebase & REST API Integration
 
 🌍 Real-World Problem Solving
 
@@ -549,13 +622,46 @@ Expected Graduation: **2027**
 
 > *"Good software isn't just feature-rich — it's maintainable, scalable, and enjoyable to use."*
 
-I enjoy building applications that solve practical problems while following modern engineering practices, emphasizing code quality, user experience, and long-term maintainability.
+I enjoy building applications that solve real-world problems through clean architecture, scalable design, and intuitive user experiences. My focus is on writing maintainable code, adopting modern development practices, and continuously improving as a software engineer.
 
 </td>
 
 </tr>
 
 </table>
+
+---
+
+<div align="center">
+
+# 📂 Repository Structure
+
+*A quick overview of how this portfolio is organized.*
+
+</div>
+
+```text
+.
+├── assets/
+│   ├── covers/
+│   ├── profile/
+│   └── screenshots/
+│
+├── docs/
+│   ├── sonexa.md
+│   ├── bloodlink.md
+│   ├── atmoslive.md
+│   ├── warrantywise.md
+│   │
+│   ├── sonexa/
+│   ├── bloodlink/
+│   ├── atmoslive/
+│   └── warrantywise/
+│
+└── README.md
+```
+
+The project-specific folders contain detailed engineering documentation, including architecture, implementation, engineering decisions, feature references, and future roadmaps for each flagship project.
 
 ---
 
@@ -610,9 +716,9 @@ src="https://streak-stats.demolab.com?user=devilyash10&theme=github-dark&hide_bo
 
 ### LeetCode
 
-Strengthening problem-solving skills through Data Structures & Algorithms.
+Practicing Data Structures & Algorithms to strengthen problem-solving and analytical thinking.
 
-<a href="https://leetcode.com/u/Q6JUAU59w3/)">
+<a href="https://leetcode.com/u/Q6JUAU59w3">
 
 <img src="https://img.shields.io/badge/View_Profile-orange?style=for-the-badge"/>
 
@@ -626,7 +732,7 @@ Strengthening problem-solving skills through Data Structures & Algorithms.
 
 ### GitHub
 
-Explore my Android projects, documentation, and open-source work.
+Explore my Android projects, engineering documentation, and software development journey.
 
 <a href="https://github.com/devilyash10">
 
@@ -642,7 +748,7 @@ Explore my Android projects, documentation, and open-source work.
 
 ### LinkedIn
 
-Let's connect and grow together professionally.
+Connect with me for professional networking, collaboration, and career opportunities.
 
 <a href="https://www.linkedin.com/in/yashbhadoriya881">
 
@@ -668,9 +774,9 @@ Let's connect and grow together professionally.
 
 # 🤝 Let's Connect
 
-I'm always interested in discussing Android development, open-source collaboration, innovative ideas, or exciting internship and full-time opportunities.
+I'm always open to discussing Android development, software engineering, open-source collaboration, innovative ideas, and internship or full-time opportunities.
 
-If you'd like to collaborate or simply have a conversation about technology, feel free to reach out.
+Whether you'd like to collaborate on a project, discuss technology, or simply connect professionally, I'd be happy to hear from you.
 
 <br>
 
@@ -697,10 +803,9 @@ If you'd like to collaborate or simply have a conversation about technology, fee
 <img src="https://komarev.com/ghpvc/?username=devilyash10&style=for-the-badge&color=blue"/>
 
 <br><br>
+### Thanks for visiting my GitHub profile! ⭐
 
-### Thanks for visiting my profile! ⭐
-
-*If you enjoyed exploring my work, consider starring a repository or connecting with me.*
+*I appreciate you taking the time to explore my work. If you found something interesting, consider starring a repository or connecting with me on LinkedIn.*
 
 </div>
 

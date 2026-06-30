@@ -202,11 +202,11 @@ Whether users are creating an emergency blood request, updating inventory, or re
 
 <img src="../assets/screenshots/BloodLink/login.png" width="23%" alt="Login"/>
 
-<img src="../assets/screenshots/BloodLink/home.png" width="23%" alt="Home"/>
-
-<img src="../assets/screenshots/BloodLink/request.png" width="23%" alt="Request"/>
+<img src="../assets/screenshots/BloodLink/user_dashboard.png" width="23%" alt="Home"/>
 
 <img src="../assets/screenshots/BloodLink/my_request.png" width="23%" alt="My Requests"/>
+
+<img src="../assets/screenshots/BloodLink/hospital_profile.png" width="23%" alt="Hospital"/>
 
 </p>
 
@@ -561,13 +561,24 @@ A glimpse into the current MVP implementation of BloodLink.
 
 <p align="center">
 
+<img src="../assets/screenshots/BloodLink/splash.png" width="23%" alt="Splash"/>
+
 <img src="../assets/screenshots/BloodLink/login.png" width="23%" alt="Login"/>
 
-<img src="../assets/screenshots/BloodLink/home.png" width="23%" alt="Home"/>
-
-<img src="../assets/screenshots/BloodLink/request.png" width="23%" alt="Request"/>
+<img src="../assets/screenshots/BloodLink/user_dashboard.png" width="23%" alt="Home"/>
 
 <img src="../assets/screenshots/BloodLink/my_request.png" width="23%" alt="My Requests"/>
+
+<img src="../assets/screenshots/BloodLink/search_screen.png" width="23%" alt="Search"/>
+
+
+<img src="../assets/screenshots/BloodLink/inventory.png" width="23%" alt="Inventory"/>
+
+<img src="../assets/screenshots/BloodLink/bloodbanks_nearby.png" width="23%" alt="NearbyBlood Bankd"/>
+
+
+<img src="../assets/screenshots/BloodLink/hospital_profile.png" width="23%" alt="Hospital"/>
+
 
 </p>
 

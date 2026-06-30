@@ -118,14 +118,17 @@ Sonexa follows Material Design 3 principles with an emphasis on clean navigation
 The interface is designed to make browsing music, managing playlists, and controlling playback feel fast, intuitive, and consistent across the application.
 
 <p align="center">
+<img src="../assets/screenshots/Sonexa/home_1.png" width="23%" alt="Home"/>
 
-<img src="../assets/screenshots/Sonexa/home.png" width="23%" alt="Home"/>
+<img src="../assets/screenshots/Sonexa/home_2.png" width="23%" alt="Home"/>
 
 <img src="../assets/screenshots/Sonexa/player.png" width="23%" alt="Player"/>
 
 <img src="../assets/screenshots/Sonexa/equalizer.png" width="23%" alt="Equalizer"/>
 
 <img src="../assets/screenshots/Sonexa/playlist.png" width="23%" alt="Playlist"/>
+
+<img src="../assets/screenshots/Sonexa/search.png" width="23%" alt="Search Global"/>
 
 </p>
 
@@ -398,13 +401,17 @@ A glimpse into the current implementation of Sonexa.
 
 <p align="center">
 
-<img src="../assets/screenshots/Sonexa/home.png" width="23%" alt="Home"/>
+<img src="../assets/screenshots/Sonexa/home_1.png" width="23%" alt="Home"/>
+
+<img src="../assets/screenshots/Sonexa/home_2.png" width="23%" alt="Home"/>
 
 <img src="../assets/screenshots/Sonexa/player.png" width="23%" alt="Player"/>
 
 <img src="../assets/screenshots/Sonexa/equalizer.png" width="23%" alt="Equalizer"/>
 
 <img src="../assets/screenshots/Sonexa/playlist.png" width="23%" alt="Playlist"/>
+
+<img src="../assets/screenshots/Sonexa/search.png" width="23%" alt="Search Global"/>
 
 </p>
 
