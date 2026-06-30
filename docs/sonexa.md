@@ -385,7 +385,7 @@ Key takeaways include
 The current implementation provides a strong foundation for future enhancements.
 
 - [ ] Offline music downloads
-- [ ] Dynamic color extraction from album artwork
+- ✅ Dynamic color extraction from album artwork
 - [ ] Lyrics synchronization
 - [ ] User authentication
 - [ ] Cloud playlist synchronization
@@ -414,7 +414,7 @@ The current implementation provides a strong foundation for future enhancements.
 
 ### ⭐ If you found this project interesting, consider giving it a star!
 
-<a href="YOUR_GITHUB_REPOSITORY_LINK">
+<a href="https://github.com/devilyash10/Sonexa_music_app">
 <img src="https://img.shields.io/badge/View_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 

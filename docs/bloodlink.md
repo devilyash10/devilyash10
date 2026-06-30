@@ -539,7 +539,7 @@ As development continues, I intend to expand the platform with additional capabi
 
 ### ⭐ If you enjoyed exploring this project, consider giving the repository a star!
 
-<a href="YOUR_GITHUB_REPOSITORY_LINK">
+<a href="https://github.com/devilyash10/BloodLink_Android_App">
 <img src="https://img.shields.io/badge/View_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 

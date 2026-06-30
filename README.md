@@ -16,13 +16,13 @@ Building scalable Android applications with modern architecture, clean code prin
 
 <tr>
 
-<td width="18%" align="center">
+<td width="20%" align="center">
 
 <img src="assets/profile/profile.png" width="170px" style="border-radius:50%;">
 
 </td>
 
-<td width="47%">
+<td width="70%">
 
 ## 👨‍💻 About Me
 
@@ -60,7 +60,7 @@ DSA Problems
 
 <br>
 
-**3+**
+**5+**
 
 Years Coding
 
@@ -72,33 +72,6 @@ Technologies
 
 </td>
 
-<td width="20%">
-
-## 🤝 Connect
-
-📧 **Email**
-
-your-email@example.com
-
-<br>
-
-💼 **LinkedIn**
-
-linkedin.com/in/yourprofile
-
-<br>
-
-💻 **GitHub**
-
-github.com/devilyash10
-
-<br>
-
-📍 **Location**
-
-Madhya Pradesh, India 🇮🇳
-
-</td>
 
 </tr>
 
